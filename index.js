@@ -10,3 +10,6 @@ $(".hide").on("click",function(){
     $(".showBar").removeClass("hideBar")
 
 })
+$("a").on("click",function(){
+    $(".menu-hamburguesa").removeClass("show-menu")
+})
