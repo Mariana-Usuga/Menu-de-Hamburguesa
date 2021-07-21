@@ -1,6 +1,20 @@
+:root{
+    --main-color:linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
 body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    font-family: 'Source Serif Pro', serif;
+}
+header{
+    text-align: center;
+    background-image:var(--main-color);
+    padding: 1rem;
+    position: sticky;
+}
+html{
+    scroll-behavior: smooth;
 }
 .menu{
     background-color: aquamarine;
@@ -20,9 +34,6 @@ body{
 }
 .hideBar{
     visibility: hidden;
-}
-html{
-    scroll-behavior: smooth;
 }
 .section{
     padding: 5%;
