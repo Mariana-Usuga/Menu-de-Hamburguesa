@@ -1,4 +1,8 @@
-.menu-hamburguesa{
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu{
     background-color: aquamarine;
     transition: transform .3s ease;
     transform:translate(-100%,0)/*hide*/
