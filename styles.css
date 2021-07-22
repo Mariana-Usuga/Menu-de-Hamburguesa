@@ -17,9 +17,32 @@ html{
     scroll-behavior: smooth;
 }
 .menu{
+    text-decoration: none;
     background-color: aquamarine;
     transition: transform .3s ease;
-    transform:translate(-100%,0)/*hide*/
+    /*transform:translate(-100%,0)/*hide*/
+    width: 100%;
+    background-color: rgba(100, 58, 112, 0.60);
+    position: fixed;
+    top:7.2rem;
+    z-index: 20;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+li{
+    padding: 2rem 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li:hover{
+    background-image: var(--main-color);
 }
 .show-menu{
     transform: translate(0,0);
