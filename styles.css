@@ -60,14 +60,3 @@ a{
     padding: 2rem;
     height: 30rem;
 }
-.hide{
-    position:absolute;
-    left: 0.7%;
-    visibility: hidden;
-}
-.show-close{
-    visibility: visible;
-}
-.hideBar{
-    visibility: hidden;
-}

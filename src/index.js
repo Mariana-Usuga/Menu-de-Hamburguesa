@@ -1,7 +1,7 @@
 
 import menuHamburger from './menu-hamburger'
 
-menuHamburger(".btn",".menu")    
+menuHamburger(".btn",".menu", ".menu a")    
 
 
 
