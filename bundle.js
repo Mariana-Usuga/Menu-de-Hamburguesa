@@ -1,0 +1,1 @@
+(()=>{"use strict";var o=Math.PI;console.log("hola mariana"),console.log(o)})();

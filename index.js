@@ -1,4 +1,9 @@
-$(".showBar").on("click",function(){
+let nombre='Mariana'
+console.log("Hola "+nombre)
+
+
+
+/*$(".showBar").on("click",function(){
     $(".menu").addClass("show-menu")
     $(".hide").addClass("show-close")
     $(".showBar").addClass("hideBar")
@@ -12,4 +17,4 @@ $(".hide").on("click",function(){
 })
 $("a").on("click",function(){
     $(".menu").removeClass("show-menu")
-})
+})*/

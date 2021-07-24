@@ -16,17 +16,24 @@ header{
 html{
     scroll-behavior: smooth;
 }
+/*-----------Menu-----------*/
 .menu{
     text-decoration: none;
     background-color: aquamarine;
     transition: transform .3s ease;
-    /*transform:translate(-100%,0)/*hide*/
+    transform:translate(-100%,0);/*hide*/
     width: 100%;
     background-color: rgba(100, 58, 112, 0.60);
     position: fixed;
     top:7.2rem;
     z-index: 20;
     text-align: center;
+}
+.btn{
+    z-index: 50;
+    position: fixed;
+    background-image: var(--main-color);
+    top:3.5rem;
 }
 ul{
     list-style: none;
@@ -37,13 +44,20 @@ ul{
 li{
     padding: 2rem 0;
 }
+li:hover{
+    background-image: var(--main-color);
+}
 a{
     text-decoration: none;
     color: black;
 }
-li:hover{
-    background-image: var(--main-color);
+/*----------Main----*/
+.section{
+    text-align: center;
+    padding: 2rem;
+    height: 30rem;
 }
+
 .show-menu{
     transform: translate(0,0);
 }
@@ -57,7 +71,4 @@ li:hover{
 }
 .hideBar{
     visibility: hidden;
-}
-.section{
-    padding: 5%;
 }
