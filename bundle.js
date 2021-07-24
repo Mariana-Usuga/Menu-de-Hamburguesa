@@ -1,1 +1,1 @@
-(()=>{"use strict";var o=Math.PI;console.log("hola mariana"),console.log(o)})();
+(()=>{"use strict";var t;t=".btn",document.addEventListener("click",(function(e){(e.target.matches(t)||e.target.matches(".btn *"))&&document.querySelector(".menu").classList.toggle("show")}))})();

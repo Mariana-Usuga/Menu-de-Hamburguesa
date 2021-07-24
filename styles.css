@@ -29,6 +29,9 @@ html{
     z-index: 20;
     text-align: center;
 }
+.menu.show{
+    transform: translate(0,0);
+}
 .btn{
     z-index: 50;
     position: fixed;
@@ -56,10 +59,6 @@ a{
     text-align: center;
     padding: 2rem;
     height: 30rem;
-}
-
-.show-menu{
-    transform: translate(0,0);
 }
 .hide{
     position:absolute;
