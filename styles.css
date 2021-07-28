@@ -19,7 +19,6 @@ html{
 /*-----------Menu-----------*/
 .menu{
     text-decoration: none;
-    background-color: aquamarine;
     transition: transform .3s ease;
     transform:translate(-100%,0);/*hide*/
     width: 100%;
@@ -44,15 +43,16 @@ ul{
     padding: 0;
     margin: 0;
 }
-li{
-    padding: 2rem 0;
-}
 li:hover{
     background-image: var(--main-color);
 }
 a{
+    padding: 2rem 0;
     text-decoration: none;
     color: black;
+    width: inherit;
+    display: block;
+    transition: all 0.3s ease;
 }
 /*----------Main----*/
 .section{
