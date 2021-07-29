@@ -1,7 +1,11 @@
 
-import menuHamburger from './menu-hamburger'
+import menuHamburger,{horaDigital}from './menu-hamburger'
 
-menuHamburger(".btn",".menu", ".menu li")    
+document.addEventListener("DOMContentLoaded",(e)=>{
+    menuHamburger(".btn",".menu", ".menu a")  
+    horaDigital()  
+}) 
+
 
 
 

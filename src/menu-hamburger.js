@@ -10,4 +10,12 @@ export default function menuHamburger(btn,menu, removeMenu){
             document.querySelector(btn).classList.remove("is-active")
         }
     })
+    
+}
+export function horaDigital(){
+    setInterval(function(){
+        let fecha=new Date(),
+        segundos=fecha.getSeconds()
+        console.log(segundos)
+    },1000)
 }
